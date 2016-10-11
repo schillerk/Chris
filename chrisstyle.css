@@ -21,37 +21,45 @@ html,body
 	height: 100%;
 	width: 50%;
     text-align: center;
+  	display: flex;
+	justify-content: center;
+	align-items: center; 
+	overflow: hidden;
 }
 
 .biotitle {
 	color: #444444;
-	line-height: 5.8vmin;
-	padding: 7%;
+	line-height: 5.5vmin;
+	padding: 8%;
 	position: relative;
     font-family: 'Titillium Web', sans-serif;
-    font-size: 5.7vmin;
+    font-size: 5.2vmin;
 }
 
 .bioname {
-    font-size: 3.8vmin;
-    line-height: 3.8vmin;
+    font-size: 3.3vmin;
+    line-height: 3.3vmin;
 }
 
 .biotext {
-	line-height: 4.4vmin;
-	font-size: 2.9vmin;
+	line-height: 3.8vmin;
+	font-size: 2.7vmin;
 }
 
-/*a:hover, a:visited, a:active, a:link {
-	border-bottom: 2px solid black;
-	color: #666666;
-	text-decoration: none;
-	color: white;
-}*/
+a {
+	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    display: inline-block;
+    color: #444444;
+    line-height: 33px;
+}
 
 a:link {
 	color: white;
-	border-bottom: 2px solid black;
+	border-bottom: 1.8px solid #444444;
+	text-decoration: none;
 }
 
 a:visited {
@@ -64,9 +72,3 @@ a:hover {
 	border-bottom: white;
 	color: black;
 }
-/*
-a:hover {
-	color: #666666;
-	text-decoration: none;
-	border-bottom: white;
-}*/
